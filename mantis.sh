@@ -1,5 +1,11 @@
 #!/usr/bin/env bash
 
+if [ $# != 1 ]; then
+    echo Please call with remote host!
+    exit 1
+fi
+
+
 REMOTE=$1
 LOCAL_SSH_PORT=22
 REMOTE_SSH_PORT=22
