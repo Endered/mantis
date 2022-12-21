@@ -1,7 +1,13 @@
 # mantis
 This is tool for local file edit from remote host.
 
-# HOW TO USE
+## Requirements
+ - Local machine
+    - ssh
+ - Remote machine
+    - sshfs
+
+## HOW TO USE
 ```
 mantis.sh {REMOTE HOST NAME}
 ```
