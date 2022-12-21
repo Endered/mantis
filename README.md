@@ -2,7 +2,6 @@
 This is tool for local file edit from remote host.
 
 # HOW TO USE
-execute with remoet host arguments.
 ```
 mantis.sh {REMOTE HOST NAME}
 ```
